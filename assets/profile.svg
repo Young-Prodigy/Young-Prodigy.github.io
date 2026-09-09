@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title description">
+  <title id="title">Jacky profile illustration</title>
+  <desc id="description">An abstract editorial portrait with a coral background and green botanical shapes.</desc>
+  <rect width="520" height="520" rx="72" fill="#dc5f3d"/>
+  <circle cx="415" cy="88" r="138" fill="#f7c8a8" opacity=".75"/>
+  <path d="M-30 425C74 302 157 339 221 435s136 115 329 37v78H-30z" fill="#17221d"/>
+  <path d="M151 416c11-106 21-186 102-206 94-23 124 58 133 206z" fill="#bfd7ca"/>
+  <circle cx="272" cy="180" r="91" fill="#f4d0b5"/>
+  <path d="M184 173c2-83 45-124 108-112 49 9 76 46 71 101-22-2-45-15-62-37-22 28-63 47-117 48z" fill="#17221d"/>
+  <path d="M238 188c9 8 16 12 29 12s23-4 33-12" fill="none" stroke="#17221d" stroke-linecap="round" stroke-width="7"/>
+  <path d="M247 226c16 12 37 12 53 0" fill="none" stroke="#a83d24" stroke-linecap="round" stroke-width="6"/>
+  <path d="M78 88c67 17 96 72 89 155C88 224 57 169 78 88z" fill="#bfd7ca"/>
+  <path d="M73 74c32 60 52 114 89 163" fill="none" stroke="#17221d" stroke-linecap="round" stroke-width="7"/>
+  <text x="410" y="458" fill="#fffdf8" font-family="Georgia, serif" font-size="48" font-weight="700" text-anchor="middle">J.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Personal website preview</title>
+  <desc id="description">A stylized browser window showing Jacky's portfolio home page.</desc>
+  <rect width="1200" height="760" rx="28" fill="#fffdf8"/>
+  <rect width="1200" height="82" rx="28" fill="#17221d"/>
+  <path d="M0 54h1200v28H0z" fill="#17221d"/>
+  <circle cx="46" cy="41" r="11" fill="#dc5f3d"/>
+  <circle cx="82" cy="41" r="11" fill="#f7c8a8"/>
+  <circle cx="118" cy="41" r="11" fill="#bfd7ca"/>
+  <rect x="172" y="24" width="470" height="34" rx="17" fill="#fffdf8" opacity=".18"/>
+  <text x="62" y="154" fill="#17221d" font-family="Georgia, serif" font-size="42" font-weight="700">Jacky<tspan fill="#dc5f3d">.</tspan></text>
+  <rect x="796" y="128" width="86" height="12" rx="6" fill="#5d6b64" opacity=".7"/>
+  <rect x="906" y="128" width="86" height="12" rx="6" fill="#5d6b64" opacity=".7"/>
+  <rect x="1016" y="128" width="122" height="12" rx="6" fill="#5d6b64" opacity=".7"/>
+  <line x1="62" y1="184" x2="1138" y2="184" stroke="#d9ded8" stroke-width="3"/>
+  <text x="64" y="324" fill="#17221d" font-family="Georgia, serif" font-size="90">Hello, I'm</text>
+  <text x="64" y="414" fill="#17221d" font-family="Georgia, serif" font-size="90">Jacky.</text>
+  <rect x="66" y="472" width="340" height="17" rx="8" fill="#5d6b64" opacity=".54"/>
+  <rect x="66" y="508" width="298" height="17" rx="8" fill="#5d6b64" opacity=".35"/>
+  <rect x="66" y="567" width="172" height="55" rx="28" fill="#17221d"/>
+  <circle cx="878" cy="421" r="206" fill="#dc5f3d"/>
+  <circle cx="958" cy="323" r="97" fill="#f7c8a8" opacity=".8"/>
+  <path d="M700 514c85-102 161-56 215 24s127 103 196 66v23H690z" fill="#17221d"/>
+  <path d="M791 526c10-98 53-151 119-151s107 57 115 151z" fill="#bfd7ca"/>
+</svg>

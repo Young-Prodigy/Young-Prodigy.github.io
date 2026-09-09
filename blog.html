@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Blog</title>
-    </head>
-    <body>
-    <nav>
-        <main>
-            Hello World! This is my website.
-        </main>
-        <footer>
-            © 2026 J Mac Alpha Chapter| All Rights Reserved
-        </footer>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jacky Wu's notes on learning web development.">
+    <title>Blog | Jacky Wu</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar" aria-label="Primary navigation">
+      <h1 class="logo"><a href="index.html">Jacky<span>.</span></a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog.html" aria-current="page">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
+
+    <main class="site-main">
+      <p class="eyebrow">Notes from the process</p>
+      <h1 class="page-title">Blog</h1>
+      <p class="page-intro">Short reflections on the things I learn while building for the web.</p>
+
+      <article class="blog-card">
+        <p class="blog-meta"><time datetime="2026-09-08">September 8, 2026</time> &middot; 2 min read</p>
+        <h2>Building my first personal website</h2>
+        <p>
+          This site began as a few separate HTML files. Adding meaningful structure, shared navigation, and a consistent design showed me how small decisions can turn isolated pages into one connected experience.
+        </p>
+        <p>
+          My biggest takeaway so far is simple: HTML gives content meaning, while CSS shapes how that meaning is presented. Keeping those responsibilities separate makes the site easier to understand and improve.
+        </p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Jacky Wu. Built with curiosity and care.</p>
+    </footer>
   </body>
 </html>

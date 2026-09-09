@@ -1,20 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jacky Wu's education, experience, projects, and skills.">
+    <title>Resume | Jacky Wu</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav>
-    <main>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-    </main>
-        <footer>
-            © 2026 J Mac Alpha Chapter| All Rights Reserved
-        </footer>
+    <nav class="navbar" aria-label="Primary navigation">
+      <h1 class="logo"><a href="index.html">Jacky<span>.</span></a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html" aria-current="page">Resume</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
+
+    <main class="site-main">
+      <div class="title-row">
+        <div>
+          <p class="eyebrow">Background and skills</p>
+          <h1 class="page-title">Resume</h1>
+        </div>
+        <a class="button button-secondary" href="resume.pdf" download>Download PDF</a>
+      </div>
+
+      <div class="resume">
+        <section class="section">
+          <h2 class="section-title">Education</h2>
+          <div class="entry">
+            <h3 class="entry-title">California Polytechnic State University, San Luis Obispo</h3>
+            <p class="entry-info">Software Engineering &middot; San Luis Obispo, CA</p>
+            <p class="entry-description">Completing computer science coursework with a focus on app development and AI integration.</p>
+          </div>
+          <div class="entry">
+            <h3 class="entry-title">AIMS College Prep High School</h3>
+            <p class="entry-info">High School Diploma &middot; Oakland, CA &middot; June 2025</p>
+            <p class="entry-description">Graduated on the Dean's List with a 3.8-4.0 GPA; earned AP scores of 4 in Environmental Science and 3 in U.S. History.</p>
+          </div>
+        </section>
+
+        <section class="section split-section">
+          <div>
+            <h2 class="section-title">Coursework</h2>
+            <ul class="course-list">
+              <li>App development</li>
+              <li>AI integration</li>
+              <li>Semantic HTML and CSS</li>
+              <li>Git and GitHub fundamentals</li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="section-title">Skills</h2>
+            <ul class="skill-list">
+              <li>Computer literacy</li>
+              <li>Bilingual communication</li>
+              <li>Leadership</li>
+              <li>Collaboration</li>
+              <li>Time management</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Projects</h2>
+          <div class="entry">
+            <h3 class="entry-title">Personal Website</h3>
+            <p class="entry-info">Designer and Developer &middot; 2026</p>
+            <p class="entry-description">Designed and built a responsive multi-page portfolio with accessible navigation, reusable visual styles, a contact form, a project showcase, and a digital resume.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Experience</h2>
+          <div class="entry">
+            <h3 class="entry-title">AIMS Badminton Team</h3>
+            <p class="entry-info">Varsity &middot; Oakland, CA &middot; April 2022-June 2025</p>
+            <p class="entry-description">Competed in singles, doubles, and mixed-doubles school tournaments.</p>
+          </div>
+          <div class="entry">
+            <h3 class="entry-title">AIMS Badminton Club</h3>
+            <p class="entry-info">Vice Captain &middot; Oakland, CA &middot; December 2021-June 2025</p>
+            <p class="entry-description">Hosted practices for players at every skill level, taught tournament fundamentals, and helped build a welcoming badminton community.</p>
+          </div>
+          <div class="entry">
+            <h3 class="entry-title">Shooting Star Cafe</h3>
+            <p class="entry-info">Barista / Deli Clerk &middot; Oakland, CA &middot; August-December 2023</p>
+            <p class="entry-description">Prepared drinks, desserts, appetizers, soups, and salads while supporting cleaning and opening preparation.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Jacky Wu. Built with curiosity and care.</p>
+    </footer>
   </body>
 </html>
