@@ -248,6 +248,7 @@ input[type="submit"]:hover {
 
 .project {
   display: flex;
+  max-width: 790px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
