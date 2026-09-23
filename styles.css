@@ -164,13 +164,16 @@ textarea:focus-visible {
 }
 
 .about-image {
-  flex: 0 1 46%;
+  flex: 0 0 clamp(240px, 32vw, 360px);
 }
 
 .about-image img {
+  width: 100%;
+  aspect-ratio: 1;
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: 50%;
   box-shadow: var(--shadow);
+  object-fit: cover;
 }
 
 .about-text {
@@ -501,7 +504,7 @@ textarea {
   }
 
   .about-image {
-    width: min(420px, 100%);
+    width: min(300px, 80vw);
   }
 
   .project-image {
