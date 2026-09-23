@@ -1,14 +1,15 @@
 :root {
-  --ink: #17221d;
-  --muted: #5d6b64;
-  --paper: #f6f4ed;
-  --surface: #fffdf8;
-  --accent: #dc5f3d;
-  --accent-dark: #a83d24;
-  --sage: #bfd7ca;
-  --line: #d9ded8;
-  --shadow: 0 24px 70px rgba(28, 49, 39, 0.12);
-  --radius: 22px;
+  color-scheme: dark;
+  --ink: #f5f5f5;
+  --muted: #a3a3a3;
+  --paper: #101010;
+  --surface: #181818;
+  --accent: #ff7657;
+  --accent-dark: #ff9b85;
+  --sage: #222222;
+  --line: #343434;
+  --shadow: none;
+  --radius: 8px;
 }
 
 * {
@@ -23,9 +24,7 @@ body {
   min-height: 100vh;
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 85% 4%, rgba(191, 215, 202, 0.55), transparent 25rem),
-    var(--paper);
+  background: var(--paper);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.7;
@@ -45,7 +44,7 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(220, 95, 61, 0.45);
+  outline: 2px solid var(--accent);
   outline-offset: 4px;
 }
 
@@ -56,7 +55,7 @@ textarea:focus-visible {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
   padding: 26px 0;
-  border-bottom: 1px solid rgba(23, 34, 29, 0.14);
+  border-bottom: 1px solid var(--line);
 }
 
 .logo {
@@ -120,7 +119,7 @@ textarea:focus-visible {
   width: min(1120px, calc(100% - 40px));
   min-height: calc(100vh - 210px);
   margin: 0 auto;
-  padding: 88px 0 112px;
+  padding: 76px 0 96px;
 }
 
 .page-title,
@@ -135,7 +134,7 @@ textarea:focus-visible {
 .page-title {
   max-width: 850px;
   margin: 0;
-  font-size: clamp(3rem, 8vw, 6.5rem);
+  font-size: clamp(3rem, 8vw, 5.5rem);
   line-height: 0.98;
 }
 
@@ -169,8 +168,8 @@ textarea:focus-visible {
 }
 
 .about-image img {
-  border: 1px solid rgba(23, 34, 29, 0.12);
-  border-radius: 46% 54% 48% 52% / 55% 43% 57% 45%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 
@@ -263,12 +262,12 @@ input[type="submit"]:hover {
 
 .project-image img {
   border-radius: 12px;
-  box-shadow: 0 18px 40px rgba(23, 34, 29, 0.18);
-  transition: transform 220ms ease;
+  box-shadow: none;
+  transition: opacity 180ms ease;
 }
 
 .project-image:hover img {
-  transform: translateY(-5px) rotate(-0.5deg);
+  opacity: 0.82;
 }
 
 .project-details {
@@ -318,7 +317,7 @@ input[type="submit"]:hover {
 
 .form-note {
   padding-left: 18px;
-  border-left: 3px solid var(--sage);
+  border-left: 3px solid var(--accent);
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -347,10 +346,10 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 13px 14px;
-  border: 1px solid #b8c2bc;
+  border: 1px solid #4d4d4d;
   border-radius: 10px;
   color: var(--ink);
-  background: #fff;
+  background: var(--paper);
   font: inherit;
 }
 
@@ -367,7 +366,7 @@ textarea {
 .blog-card {
   max-width: 790px;
   padding: clamp(30px, 6vw, 60px);
-  border-top: 5px solid var(--accent);
+  border-top: 1px solid var(--accent);
   border-radius: 0 0 var(--radius) var(--radius);
   background: var(--surface);
   box-shadow: var(--shadow);
@@ -412,6 +411,10 @@ textarea {
 
 .section:last-child {
   padding-bottom: 0;
+}
+
+.section > .entry {
+  grid-column: 2;
 }
 
 .section-title {
@@ -466,7 +469,7 @@ textarea {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
   padding: 28px 0 38px;
-  border-top: 1px solid rgba(23, 34, 29, 0.14);
+  border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.85rem;
   text-align: center;
@@ -519,6 +522,10 @@ textarea {
   .section,
   .split-section > div {
     gap: 14px;
+  }
+
+  .section > .entry {
+    grid-column: 1;
   }
 
   .title-row {
